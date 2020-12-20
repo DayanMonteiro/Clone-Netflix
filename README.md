@@ -23,6 +23,10 @@ O layout foi todo projetado no Figma
 
 ![projeto](https://github.com/DayanMonteiro/Clone-Netflix--Figma-HTML5-CSS3-JavaScript-NodeJS-MongoDB-web-ReactJS-App-React-Native/blob/master/projeto%20feito%20no%20figma.jpg)
 
+### Layout para o app
+
+![app](https://github.com/DayanMonteiro/Clone-Netflix--Figma-HTML5-CSS3-JavaScript-NodeJS-MongoDB-web-ReactJS-App-React-Native/blob/master/layout%20app%20telas.jpg)
+
 
 
 
