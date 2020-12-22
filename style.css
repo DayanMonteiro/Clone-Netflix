@@ -1,7 +1,42 @@
+/* regras gerais */
 body {
     background-color: #000;
 }
 
+header {
+    padding: 50px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 78.77%);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+
+}
+
+header img {
+    width: 150px;
+}
+
+.btn-custom-white {
+   background-color: #ffffff; 
+}
+
+.btn-custom-white:hover {
+    opacity: 0.8;
+}
+
+.btn-custom-translucent {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+.btn-custom-translucent:hover {
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+
+/* LOGIN */
 body.bg-filmes {
     background-image: url(netflix-web/assets/background-web-01.png
     );
@@ -11,14 +46,7 @@ body.bg-filmes {
     
 }
 
-header {
-    padding: 50px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 78.77%);
-}
 
-header img {
-    width: 150px;
-}
 
 #caixa-login {
     background: rgba(0,0,0,0.7);
@@ -28,4 +56,64 @@ header img {
 
 strong {
     color: #ffffff;
+}
+
+/* HOME */
+
+.menu-list {
+    list-style: none;
+    padding-left: 0;
+    padding-top: 7px;
+}
+
+.menu-list li {
+   display: inline-block; 
+   margin-left: 15px;
+}
+
+.menu-list li a {
+    color: #ffffff;
+}
+
+#hero {
+    height: 700px;
+    background-image: url(./netflix-web/assets/diabo-nosso-de-cada-dia-capa.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}
+
+#hero-infos {
+    padding: 0;
+    margin-top: 170px;
+    z-index: 3;
+    position: relative;
+}
+
+#hero-infos img.logo-serie {
+    margin-bottom: 50px;
+    width: 500px;
+}
+
+#hero-infos h1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#hero-infos h1 img {
+    width: 38px;
+    margin-top: -10px;
+    margin-right: 2px;
+}
+
+.btn-custom-white img {
+    width: 25px;
+    height: 25px;
+}
+
+.btn-custom-translucent img{
+    width: 25px;
+    height: 25px;
 }
