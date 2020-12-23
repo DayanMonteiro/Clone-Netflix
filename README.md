@@ -7,7 +7,7 @@ Um projeto completo de front end e back end desenvolvido desde o layout projetad
 O layout foi todo projetado no Figma
 
 ### Login
-![login](https://github.com/DayanMonteiro/Clone-Netflix--Figma-HTML5-CSS3-JavaScript-NodeJS-MongoDB-web-ReactJS-App-React-Native/blob/master/Login.png)
+![loginWeb](https://github.com/DayanMonteiro/Clone-Netflix--Figma-HTML5-CSS3-JavaScript-NodeJS-MongoDB-web-ReactJS-App-React-Native/blob/master/Login-web.png)
 
 ### Home
 ![home](https://github.com/DayanMonteiro/Clone-Netflix--Figma-HTML5-CSS3-JavaScript-NodeJS-MongoDB-web-ReactJS-App-React-Native/blob/master/Home.png)
