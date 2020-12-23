@@ -6,10 +6,32 @@
     
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
+
+        <script 
+        type="text/javascript" 
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+        </script>
+
+        <script 
+        type="text/javascript" 
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+        </script>
     
         <title>Home</title>
     </head>
 <body>
+
+    <div class="modal fade" id="modal-filme">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <h1>Ola</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+
     <div class="container-fluid">
         <header class="row">
             <div class="col-2">
@@ -74,8 +96,8 @@
             </div>
                 <div class="col-12">
                     <ul class="filme-lista">
-                        <li class="filme">
-                            <img class="img-fluid"   src="./netflix-web/assets/100.jpg" alt="filmes">
+                        <li class="filme" data-toggle="modal" data-target="#modal-filme">
+                            <img class="img-fluid"   src="./netflix-web/assets/Diabo-De-Cada-Dia-Capa01.png" alt="filmes">
                             <div class="filme-info">
                                 <div class="col-12">
                                 <a href="#" class="btn-custom-round  btn btn-light rounded-circle">
