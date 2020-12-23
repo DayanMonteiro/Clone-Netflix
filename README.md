@@ -7,10 +7,10 @@ Um projeto completo de front end e back end desenvolvido desde o layout projetad
 O layout foi todo projetado no Figma
 
 ### Login
-![login](https://github.com/DayanMonteiro/Clone-Netflix--Figma-HTML5-CSS3-JavaScript-NodeJS-MongoDB-web-ReactJS-App-React-Native/blob/master/Login.png)
+![loginWeb](https://github.com/DayanMonteiro/Clone-Netflix--Figma-HTML5-CSS3-JavaScript-NodeJS-MongoDB-web-ReactJS-App-React-Native/blob/master/Login-web.png)
 
 ### Home
-![home](https://github.com/DayanMonteiro/Clone-Netflix--Figma-HTML5-CSS3-JavaScript-NodeJS-MongoDB-web-ReactJS-App-React-Native/blob/master/Home.png)
+![homeWeb](https://github.com/DayanMonteiro/Clone-Netflix--Figma-HTML5-CSS3-JavaScript-NodeJS-MongoDB-web-ReactJS-App-React-Native/blob/master/Home-web.png)
 
 ### Temporadas
 
@@ -19,7 +19,7 @@ O layout foi todo projetado no Figma
 
 #### Parte do processo de desenvolvimento do layout web
 
-![des00](https://github.com/DayanMonteiro/Clone-Netflix--Figma-HTML5-CSS3-JavaScript-NodeJS-MongoDB-web-ReactJS-App-React-Native/blob/master/desenvolvendo%20no%20figma.jpg)
+![desFig](https://github.com/DayanMonteiro/Clone-Netflix--Figma-HTML5-CSS3-JavaScript-NodeJS-MongoDB-web-ReactJS-App-React-Native/blob/master/desenvolvendo%20no%20figma.jpg)
 
 ![projeto](https://github.com/DayanMonteiro/Clone-Netflix--Figma-HTML5-CSS3-JavaScript-NodeJS-MongoDB-web-ReactJS-App-React-Native/blob/master/projeto%20feito%20no%20figma.jpg)
 
