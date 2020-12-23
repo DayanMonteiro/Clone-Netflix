@@ -10,7 +10,7 @@ O layout foi todo projetado no Figma
 ![loginWeb](https://github.com/DayanMonteiro/Clone-Netflix--Figma-HTML5-CSS3-JavaScript-NodeJS-MongoDB-web-ReactJS-App-React-Native/blob/master/Login-web.png)
 
 ### Home
-![home](https://github.com/DayanMonteiro/Clone-Netflix--Figma-HTML5-CSS3-JavaScript-NodeJS-MongoDB-web-ReactJS-App-React-Native/blob/master/Home.png)
+![homeWeb](https://github.com/DayanMonteiro/Clone-Netflix--Figma-HTML5-CSS3-JavaScript-NodeJS-MongoDB-web-ReactJS-App-React-Native/blob/master/Home-web.png)
 
 ### Temporadas
 
