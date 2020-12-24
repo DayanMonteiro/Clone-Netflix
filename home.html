@@ -27,7 +27,8 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-hero">
-                    <img src="./netflix-web/assets/logo-serie.png" alt="logo da série">
+                    <img src="./netflix-web/assets/logo-serie.png" alt="logo da série" style="width: 336px;
+                    height: 182px;" >
                     <div class="col-12 modal-hero-infos"><!--*** obs ***-->
                         <button class="btn btn-lg btn-custom-white">
                             <img src="./netflix-web/assets/play.png" alt="play" style="display: inline; margin-right: 3px;">Assistir
@@ -36,10 +37,10 @@
                             <img src="./netflix-web/assets/play.png" style="width: 18px; height: 27px;" alt="play">
                         </a>
                         <a href="#" class="btn-custom-round btn border-white btn-lg rounded-circle opacity-50">
-                                <img src="./netflix-web/assets/thumb-up.png" style="width: 20px; height: 29px;" alt="thumb up"> 
+                            <img src="./netflix-web/assets/thumb-up.png" style="width: 20px; height: 29px;" alt="thumb up"> 
                         </a>
                         <a href="#" class="btn-custom-round  btn border-white btn-lg rounded-circle opacity-50">
-                                <img src="./netflix-web/assets/thumb-down.png" style="width: 20px; height: 29px;" alt="thumb down">
+                            <img src="./netflix-web/assets/thumb-down.png" style="width: 20px; height: 29px;" alt="thumb down">
                         </a>
                     </div>
 
@@ -47,18 +48,211 @@
                 <div class="modal-info" >
                    <div class="container">
                        <div class="row">
-                           <div class="col-7"></div>
-                           <p class="filme-descricao">
-                            Pregadores Profanos. Autoridades Corruptas. Amantes Assassinos. Numa cidade cheia de pecadores, um jovem busca justiça.
-                            </p>
-                           <div class="col-5">
-                               <p class="filme-elelenco">
-                                Elenco: Tom Holland, Robert Pattinson, Haley Bennett Gêneros: Ação, Aventura, Dramático. Cenas e momentos: Violentos
-                               </p>
-                           </div>
+                           <div class="alinhar-textos">
+                            <div class="filme-descricao" /*class="col-7"*/>
+                            <p class="filme-descricao-text">
+                                Pregadores Profanos. Autoridades Corruptas. Amantes Assassinos. Numa cidade cheia de pecadores, um jovem busca justiça.
+                                </p>
+                            </div>
+                            <div  class="filme-elenco"/*class="col-5"*/>
+                                <p class="filme-elenco-text">
+                                    Elenco: <text>Tom Holland, Robert Pattinson, Haley Bennett</text>  
+                                    <br />
+                                    <br />
+                                    Gêneros: <text>Ação, Aventura, Dramático.</text>
+                                    <br />
+                                    <br />
+                                    Cenas e momentos: <text>Violentos</text> 
+                                </p>
+                        </div>
+                        </div>
+                        <div class="cabecalho-ep-bt-temp" >
+                            <div class="text-episodios">
+                                <h3 class="text-white">Episódios</h3>
+                            </div>
+                            <div class="botao-temporada">
+                                <select class="form-control">
+                                    <option>Temporada 1</option>
+                                </select>
+                            </div>
+                            <br />
+                        </div>
+                        <div class="row">
+                            <ul id="list-episodes">
+                                <li>
+                                    <div class="row">
+                                        <div class="col-1 my-auto text-center">
+                                            <h3 class="text-white">1</h3>
+                                        </div>
+                                         <div class="col-4">
+                                            <img class="img-fluid"  src="./netflix-web/assets/diabo-nosso-de-cada-dia-capa.png" alt="capa filme">
+                                         </div>
+                                        <div class="col-7">
+                                            <h6 class="text-white">Mauris justo mauris</h6>
+                                            <p class="text-muted">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ex nec hendrerit laoreet. Fusce et libero hendrerit, scelerisque ligula in, elementum velit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="row">
+                                        <div class="col-1 my-auto text-center">
+                                            <h3 class="text-white">2</h3>
+                                        </div>
+                                         <div class="col-4">
+                                            <img class="img-fluid"  src="./netflix-web/assets/diabo-nosso-de-cada-dia-capa.png" alt="capa filme">
+                                         </div>
+                                        <div class="col-7">
+                                            <h6 class="text-white">Mauris justo mauris</h6>
+                                            <p class="text-muted">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ex nec hendrerit laoreet. Fusce et libero hendrerit, scelerisque ligula in, elementum velit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="row">
+                                        <div class="col-1 my-auto text-center">
+                                            <h3 class="text-white">3</h3>
+                                        </div>
+                                         <div class="col-4">
+                                            <img class="img-fluid"  src="./netflix-web/assets/diabo-nosso-de-cada-dia-capa.png" alt="capa filme">
+                                         </div>
+                                        <div class="col-7">
+                                            <h6 class="text-white">Mauris justo mauris</h6>
+                                            <p class="text-muted">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ex nec hendrerit laoreet. Fusce et libero hendrerit, scelerisque ligula in, elementum velit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="row">
+                                        <div class="col-1 my-auto text-center">
+                                            <h3 class="text-white">4</h3>
+                                        </div>
+                                         <div class="col-4">
+                                            <img class="img-fluid"  src="./netflix-web/assets/diabo-nosso-de-cada-dia-capa.png" alt="capa filme">
+                                         </div>
+                                        <div class="col-7">
+                                            <h6 class="text-white">Mauris justo mauris</h6>
+                                            <p class="text-muted">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ex nec hendrerit laoreet. Fusce et libero hendrerit, scelerisque ligula in, elementum velit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="row">
+                                        <div class="col-1 my-auto text-center">
+                                            <h3 class="text-white">5</h3>
+                                        </div>
+                                         <div class="col-4">
+                                            <img class="img-fluid"  src="./netflix-web/assets/diabo-nosso-de-cada-dia-capa.png" alt="capa filme">
+                                         </div>
+                                        <div class="col-7">
+                                            <h6 class="text-white">Mauris justo mauris</h6>
+                                            <p class="text-muted">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ex nec hendrerit laoreet. Fusce et libero hendrerit, scelerisque ligula in, elementum velit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="row">
+                                        <div class="col-1 my-auto text-center">
+                                            <h3 class="text-white">6</h3>
+                                        </div>
+                                         <div class="col-4">
+                                            <img class="img-fluid"  src="./netflix-web/assets/diabo-nosso-de-cada-dia-capa.png" alt="capa filme">
+                                         </div>
+                                        <div class="col-7">
+                                            <h6 class="text-white">Mauris justo mauris</h6>
+                                            <p class="text-muted">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ex nec hendrerit laoreet. Fusce et libero hendrerit, scelerisque ligula in, elementum velit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="row">
+                                        <div class="col-1 my-auto text-center">
+                                            <h3 class="text-white">7</h3>
+                                        </div>
+                                         <div class="col-4">
+                                            <img class="img-fluid"  src="./netflix-web/assets/diabo-nosso-de-cada-dia-capa.png" alt="capa filme">
+                                         </div>
+                                        <div class="col-7">
+                                            <h6 class="text-white">Mauris justo mauris</h6>
+                                            <p class="text-muted">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ex nec hendrerit laoreet. Fusce et libero hendrerit, scelerisque ligula in, elementum velit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="row">
+                                        <div class="col-1 my-auto text-center">
+                                            <h3 class="text-white">8</h3>
+                                        </div>
+                                         <div class="col-4">
+                                            <img class="img-fluid"  src="./netflix-web/assets/diabo-nosso-de-cada-dia-capa.png" alt="capa filme">
+                                         </div>
+                                        <div class="col-7">
+                                            <h6 class="text-white">Mauris justo mauris</h6>
+                                            <p class="text-muted">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ex nec hendrerit laoreet. Fusce et libero hendrerit, scelerisque ligula in, elementum velit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="row">
+                                        <div class="col-1 my-auto text-center">
+                                            <h3 class="text-white">9</h3>
+                                        </div>
+                                         <div class="col-4">
+                                            <img class="img-fluid"  src="./netflix-web/assets/diabo-nosso-de-cada-dia-capa.png" alt="capa filme">
+                                         </div>
+                                        <div class="col-7">
+                                            <h6 class="text-white">Mauris justo mauris</h6>
+                                            <p class="text-muted">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ex nec hendrerit laoreet. Fusce et libero hendrerit, scelerisque ligula in, elementum velit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="row">
+                                        <div class="col-1 my-auto text-center">
+                                            <h3 class="text-white">10</h3>
+                                        </div>
+                                         <div class="col-4">
+                                            <img class="img-fluid"  src="./netflix-web/assets/diabo-nosso-de-cada-dia-capa.png" alt="capa filme">
+                                         </div>
+                                        <div class="col-7">
+                                            <h6 class="text-white">Mauris justo mauris</h6>
+                                            <p class="text-muted">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ex nec hendrerit laoreet. Fusce et libero hendrerit, scelerisque ligula in, elementum velit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
                        </div>
                    </div> 
-
                 </div>
             </div>
         </div>
